@@ -1,0 +1,182 @@
+<template>
+  <div class="wrapper">
+    <ul class="content">
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+      <li>sssss</li>  
+
+    </ul>
+  </div>
+</template>
+
+<script>
+import BSscroll from "better-scroll"
+
+export default {
+name:'Category',
+data(){
+  return{
+    scroll:null
+  }
+},
+created(){
+  
+},
+mounted(){
+  this.scroll = new BSscroll('.wrapper',{
+    
+  })
+}
+}
+</script>
+
+<style  scoped>
+.wrapper{
+  height: 150px;
+  background-color: red;
+}
+</style>
+
